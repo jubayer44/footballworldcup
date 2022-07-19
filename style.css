@@ -14,7 +14,7 @@ body{
 
 .container{
     align-items: center;
-    margin: 106px auto;
+    margin: 106px 79.156px -105px 79.156px;
     width: 90%;
     height: 100vh;
 }
@@ -67,6 +67,7 @@ body{
     margin-top: 28px;
 }
 /* ____________________________common style end_____________________________ */
+/* _________________________cards section style start______________________ */
 
 .card-section{
     display: flex;
@@ -132,4 +133,41 @@ body{
     width: 100%;
     margin-bottom: 15px;
 }
+
+.time-coment{
+    display: flex;
+    justify-content: space-between;
+    color: rgba(128, 128, 128, 0.708);
+}
+
+.fa-message, .fa-clock{
+    margin: 5px 10px;
+}
+
+.copiright-container{
+    position: relative;
+    top: 450px;
+    background-color: black;
+    color: white;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+.copiright-container h2{
+    padding: 20px;
+}
+.copiright-container hr{
+    margin: 0 235px;
+    opacity: .3;
+}
+
+.contart{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px 5px;
+}
+/* _________________________cards section style end______________________ */
+
 
