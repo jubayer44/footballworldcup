@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ____________________________common style start_____________________________ */
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #FFFFFF;
+}
+
+.container{
+    align-items: center;
+    margin: 106px auto;
+    width: 90%;
+    height: 100vh;
+}
+/* .banner-container{
+    background-color: black;
+} */
+
+.top-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    border-radius: 35px;
+}
+
+.header-title{
+    width: 50%;
+    height: auto;
+    color: white;
+    padding: 5px 50px;
+}
+.header-title h1{
+    font-weight: 700;
+    font-size: 3vw;
+    margin-bottom: 19px;
+}
+
+.header-title p{
+    margin-bottom: 30px;
+}
+.header-title a{
+    text-decoration: none;
+    background-color: orange;
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.banner-image{
+    width: 50%;
+    height: auto;
+}
+
+.banner-image img{
+    width: 78%;
+    margin-top: 28px;
+}
+/* ____________________________common style end_____________________________ */
+
+.card-section{
+    display: flex;
+    gap: 30px;
+}
+.side-box{
+    width: 35%;
+    height: 320px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 10px;
+}
+
+.box1{
+    background-color: white;
+    padding: 18px 30px;
+    border-radius: 15px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+
+}
+
+.btn{
+    background-color: orangered;
+    padding: 18px 30px;
+    border-radius: 15px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.card{
+    width: 100%;
+    border: 0.5px solid rgba(128, 128, 128, 0.293);
+    border-radius: 5px;
+}
+
+.card a{
+    text-decoration: none;
+    border: 1px solid gray;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+.card p{
+    margin: 5px;
+}
+.card img{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
