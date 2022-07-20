@@ -74,7 +74,7 @@ body{
     gap: 30px;
 }
 .side-box{
-    width: 35%;
+    width: 1090px;
     height: 320px;
     padding: 15px;
     background-color: black;
@@ -95,6 +95,14 @@ body{
     color: black;
     font-weight: bold;
 
+}
+.box1 a{
+    text-decoration: none;
+    color:black;
+}
+.box1:hover{
+    background-color: gray;
+    color: #FFFFFF;
 }
 
 .btn{
@@ -143,10 +151,13 @@ body{
 .fa-message, .fa-clock{
     margin: 5px 10px;
 }
+/* _________________________cards section style end______________________ */
+
+/* <____________________________________footer section style start_________________________  */
 
 .copiright-container{
     position: relative;
-    top: 450px;
+    top: 490px;
     background-color: black;
     color: white;
     height: 300px;
@@ -168,6 +179,52 @@ body{
     gap: 50px;
     padding: 50px 5px;
 }
-/* _________________________cards section style end______________________ */
+
+.fa-facebook, .fa-twitter, .fa-linkedin{
+    margin-right: 20px;
+    font-size: 20px;
+    color: #FFFFFF
+}
+/*____________________________________footer section style end_________________________ */
 
 
+
+
+/* ______________________________________up-coming-match-page style start____________________________ */
+
+
+
+    .page2-side-box{
+        width: 552px;
+        height: 320px;
+        padding: 15px;
+        background-color: black;
+        color: white;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        border-radius: 10px;
+    }
+
+    .page2-copiright-container{
+        position: relative;
+        top: 100px;
+        background-color: black;
+        color: white;
+        height: 300px;
+        width: 100%;
+        text-align: center;
+        }
+
+    .page2-copiright-container h2{
+        padding: 20px;
+    }
+    .page2-copiright-container hr{
+        margin: 0 235px;
+        opacity: .3;
+    }
+
+
+/* ______________________________________match-html style end____________________________ */
