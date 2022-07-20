@@ -27,7 +27,7 @@ body{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 80vh;
+    height: 100%;
     background-color: black;
     border-radius: 35px;
     overflow: hidden;
@@ -52,7 +52,6 @@ body{
     text-decoration: none;
     background-color: orange;
     font-weight: 700;
-    font-size: 20px;
     color: black;
     border-radius: 5px;
     padding: 10px;
@@ -65,7 +64,7 @@ body{
 
 .banner-image img{
     width: 78%;
-    margin-top: 28px;
+    margin-bottom: -2%;
 }
 /* ____________________________common style end_____________________________ */
 /* _________________________cards section style start______________________ */
@@ -165,10 +164,10 @@ body{
     padding: 55px;
 }
 
-.copiright-container h2{
+.copyright-container h2{
     padding: 20px;
 }
-.copiright-container hr{
+.copyright-container hr{
     margin: 0 235px;
     opacity: .3;
 }
@@ -228,7 +227,7 @@ body{
 }
 
 
-    .page2-copiright-container{
+    .page2-copyright-container{
         position: relative;
         top: 100px;
         background-color: black;
@@ -238,10 +237,10 @@ body{
         text-align: center;
         }
 
-    .page2-copiright-container h2{
+    .page2-copyright-container h2{
         padding: 20px;
     }
-    .page2-copiright-container hr{
+    .page2-copyright-container hr{
         margin: 0 235px;
         opacity: .3;
     }
@@ -256,15 +255,19 @@ body{
     body{
         background-color: lightblue;
     }
-
+.header-title{
+    padding: 6% 0 6% 6%;
+}
 .header-title p{
     font-size: 1.5vw;
 }
+
+.banner-image{
+    margin-bottom: -8*;
+}
 .banner-image img{
     width: 100%;
-    margin: 0;
-    padding: 0;
-    border-radius: 50%;
+    margin-bottom: -8%;
 
 }
 .card-section{
@@ -277,12 +280,18 @@ body{
 }
 
 .side-box{
-    height: 100%;
     display: flex;
-    text-align: center;flex-direction: row;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
     gap: 10px;
     border-radius: 10px;
+    height: auto;
     
+}
+
+.box1{
+    width: auto;
 }
 
 .card p{
@@ -293,13 +302,6 @@ body{
     gap: 10px;
 }
 
-.copiright-container{
-    top: 610px;
-    width: 100%;
-}
-.copiright-container hr{
-    margin: 0 10%;
-}
 .contart{
     gap: 22px;
     font-size: 1.8vw;
