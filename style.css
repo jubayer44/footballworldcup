@@ -14,9 +14,9 @@ body{
 
 .container{
     align-items: center;
-    margin: 106px 79.156px -105px 79.156px;
-    width: 90%;
-    height: 100vh;
+    padding: 60px;
+    width: 100%;
+    height: 100%;
 }
 /* .banner-container{
     background-color: black;
@@ -30,6 +30,7 @@ body{
     height: 80vh;
     background-color: black;
     border-radius: 35px;
+    overflow: hidden;
 }
 
 .header-title{
@@ -74,7 +75,6 @@ body{
     gap: 30px;
 }
 .side-box{
-    width: 1090px;
     height: 320px;
     padding: 15px;
     background-color: black;
@@ -88,6 +88,7 @@ body{
 }
 
 .box1{
+    width: 310px;
     background-color: white;
     padding: 18px 30px;
     border-radius: 15px;
@@ -155,14 +156,13 @@ body{
 
 /* <____________________________________footer section style start_________________________  */
 
-.copiright-container{
-    position: relative;
-    top: 490px;
+.copyright-container{
     background-color: black;
     color: white;
     height: 300px;
     width: 100%;
     text-align: center;
+    padding: 55px;
 }
 
 .copiright-container h2{
@@ -181,21 +181,22 @@ body{
 }
 
 .fa-facebook, .fa-twitter, .fa-linkedin{
-    margin-right: 20px;
-    font-size: 20px;
+    margin-right: 40px;
+    font-size: 30px;
     color: #FFFFFF
 }
+
 /*____________________________________footer section style end_________________________ */
 
 
 
 
-/* ______________________________________up-coming-match-page style start____________________________ */
+/* ______________________________________page-2 (up-coming-match) style start____________________________ */
 
 
 
     .page2-side-box{
-        width: 552px;
+        width: 345px;
         height: 320px;
         padding: 15px;
         background-color: black;
@@ -207,6 +208,25 @@ body{
         gap: 30px;
         border-radius: 10px;
     }
+
+.page2-cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 0.5px solid rgba(128, 128, 128, 0.293);
+    border-radius: 5px;
+    padding: 50px 20px;
+    height: 100%;
+}
+.page2-card{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 2px;
+    gap: 22px;
+    align-items: center;
+}
+
 
     .page2-copiright-container{
         position: relative;
@@ -227,4 +247,64 @@ body{
     }
 
 
-/* ______________________________________match-html style end____________________________ */
+/* ______________________________________page-2 (up-coming-match) style end____________________________ */
+
+
+/* ____________________Media-Tablat style start______________________________ */
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    body{
+        background-color: lightblue;
+    }
+
+.header-title p{
+    font-size: 1.5vw;
+}
+.banner-image img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+
+}
+.card-section{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.side-box{
+    height: 100%;
+    display: flex;
+    text-align: center;flex-direction: row;
+    gap: 10px;
+    border-radius: 10px;
+    
+}
+
+.card p{
+    font-size: 10px;
+}
+.cards{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.copiright-container{
+    top: 610px;
+    width: 100%;
+}
+.copiright-container hr{
+    margin: 0 10%;
+}
+.contart{
+    gap: 22px;
+    font-size: 1.8vw;
+}
+
+}
+
+/* ____________________Media-Tablat style end______________________________ */
