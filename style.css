@@ -249,12 +249,10 @@ body{
 /* ______________________________________page-2 (up-coming-match) style end____________________________ */
 
 
-/* ____________________Media-Tablat style start______________________________ */
+/* ____________________Tablat view style start______________________________ */
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
-    body{
-        background-color: lightblue;
-    }
+ 
 .header-title{
     padding: 6% 0 6% 6%;
 }
@@ -287,11 +285,14 @@ body{
     gap: 10px;
     border-radius: 10px;
     height: auto;
+    background-color: #FFFFFF;
     
 }
 
-.box1{
+.box1, .btn{
     width: auto;
+    border: 1px solid rgba(128, 128, 128, 0.287);
+    font-size: 15px;
 }
 
 .card p{
@@ -309,4 +310,73 @@ body{
 
 }
 
-/* ____________________Media-Tablat style end______________________________ */
+/* ____________________Tablat view style end______________________________ */
+
+/* ______________________Mobile view style start________________________ */
+
+@media screen and (max-width: 576px) {
+
+
+.top-banner{
+    display: flex;
+    flex-direction: column;
+}
+.header-title{
+    padding: 30px 40px;
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+
+}
+.header-title p{
+    font-size: 2vw;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.banner-image{
+    width: 100%;
+    text-align: center;
+}
+
+.card-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.side-box{
+    gap: 10px;
+    border-radius: 10px;
+    height: auto;
+    background-color: #FFFFFF;
+    
+}
+
+.box1, .btn{
+    width: auto;
+    border: 1px solid rgba(128, 128, 128, 0.287);
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.copyright-container{
+    height: auto;
+}
+
+.copyright-container hr{
+    margin: 0;
+}
+
+.contart{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+}
+
+
+/* ______________________Mobile view style end________________________ */
