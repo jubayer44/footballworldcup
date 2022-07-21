@@ -388,9 +388,10 @@ body {
 
 @media screen and (max-width: 576px) {
 
-    .container{
+    .container {
         padding: 18px;
     }
+
     .top-banner {
         display: flex;
         flex-direction: column;
@@ -403,7 +404,8 @@ body {
         width: 100%;
 
     }
-    .header-title h1{
+
+    .header-title h1 {
         font-size: 5vw;
     }
 
@@ -456,6 +458,15 @@ body {
         flex-direction: column;
         gap: 15px;
     }
+
+    .page2-copyright-container {
+        height: 100%;
+    }
+
+    .page2-copyright-container hr {
+        margin: 0;
+    }
+
 
 }
 
